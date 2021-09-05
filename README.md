@@ -1,5 +1,5 @@
 <html>
   <body>
-   <p>Hi, I am peko<p>
+   <p>Hola, I am Peko. I have been programming since 3 years.<br>I have a good experience in software development,web development, os development and game dev.<p>
   </body>
 </html>
