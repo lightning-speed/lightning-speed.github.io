@@ -2,6 +2,6 @@
   <body>
    <p>Hola, I am Peko. I have been programming since 3 years.<br>I have a good experience in software development,web development, os development and game development.<p>
     <hr>
-    <p>Currently I am working on Radical Operating System and Gane dev</p>
+    <p>Currently I am working on Radical Operating System and Game dev</p>
   </body>
 </html>
