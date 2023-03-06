@@ -1,7 +1,7 @@
 
 let uiType = 0;
 let mo = false;
-function start(){
+function start(page){
     if(document.body.offsetWidth< 784){
       uiType = 1;
     showMenuEdit();
@@ -9,6 +9,7 @@ function start(){
     }else{
       mmbtn.remove();
     }
+    if(page=='home')
     showName();
     mmbtn.onclick = () =>{
       if(!mo)
