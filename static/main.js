@@ -59,3 +59,49 @@ function showDetail(){
     }
     const inrt = setInterval(rt,50);
   }
+
+  function send(email,msg){
+    const url = 'https://website.opengi.repl.co/';
+
+const data = {
+  msg: msg,
+  from: email
+};
+
+const requestOptions = {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  mode:'cors',
+  body: JSON.stringify(data)
+};
+
+fetch(url, requestOptions)
+  .then((response)=>{
+  
+    return response.json()
+
+  })
+  .then((data)=>{
+    if(data.end=='200'){
+      alert('Message Send!');
+    }
+    else if(data.end=='407'){
+      alert('Error: Invalid Email Address');
+    }
+  })
+  .catch(error => console.error(error));
+  
+  }
+function sendMsg(){
+  const email = emli.value;
+  const text = msli.value;
+  if(email.length==0){
+    alert('Fill in email address');
+    return;
+  }
+  if(text.length==0){
+    alert('Fill in message');
+    return;
+  }
+  send(email,text);
+}
