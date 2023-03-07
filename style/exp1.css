@@ -6,6 +6,7 @@
     overflow-y: hidden;
     position: fixed;
     z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 
     top:0;  
 
@@ -19,6 +20,7 @@
     background-image: url(../back.webp);
     background-size:cover;
     height: 100%;
+    overflow-y: hidden;
     width: 100%;
 }
 .sbackrt{
@@ -26,6 +28,8 @@
     background-size: 100% 100%;
     height: fit-content;
     text-align: center;
+    overflow-y: hidden;
+
 }
 .backrt3{
     background-image: url(../back3.jpg);
@@ -33,6 +37,7 @@
     text-align: center;
     height: fit-content;
 
+    overflow-y: hidden;
     color:white
 }
 .nav_btn{
@@ -212,4 +217,23 @@
     padding-top: 100px;
     text-align: center;
     width: 100%;
+}
+
+.vantak{
+    color:blue;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.vantak:hover{
+    background-color: #5553;
+}
+.fotr{
+    width:100%;
+    text-align: center;
+    height:150px;
+    background-color: black;
+    padding-top: 50px;
+    color:white;
 }
