@@ -1,0 +1,33 @@
+.activity{
+    background-color: rgb(10, 10, 10);
+}
+button{
+    background-color: rgb(146, 60, 196);
+    box-shadow: 4px 4px 17px -1px rgba(64,54,199,0.5);
+    color: white;
+}
+button:hover{
+    background-color: rgb(133, 15, 202);
+    
+}
+.input_button{
+    background-color: rgb(250, 81, 2);
+    color: white;
+    box-shadow: 4px 4px 17px -1px rgba(64,54,199,0.78);
+}
+.input_button:hover{
+    background-color: rgb(247, 140, 0);
+    
+}
+
+span,p,h1,h2,h3,input{
+    color:white
+    
+}
+a{
+    color:rgb(197, 147, 253)
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
