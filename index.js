@@ -274,10 +274,10 @@ class MainView extends Activity {
             fontSize:'15px'
         });
         centreInfo.set({
-            innerHTML:"<a href='instagram.com/this_is_ved._'>Instagram</a> | "+
+            innerHTML:"<a href='https://instagram.com/this_is_ved._'>Instagram</a> | "+
             "<a href='https://www.linkedin.com/in/vedansh-tandon/'>Linked In</a> |"+
             " <a href='mailto:krishtandon9838@gmail.com'>E-Mail</a> |"+
-            " <a href='github.com/lightning-speed'>Github</a> "
+            " <a href='https://github.com/lightning-speed'>Github</a> "
                 +"<br><br><br>This Website was made using my own framework<br><br><br>"
             +" \u00A9 "+new Date().getFullYear()+", Vedansh Tandon. All Rights Reserved."
         })
