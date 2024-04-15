@@ -240,7 +240,7 @@ class MainView extends Activity {
                 "<h3>I sometimes post videos on experimental projects that I have created<br><br>Like this one:</h3>" +
                 "<br>"+
                 "<iframe  height='150' width='280'  "  +
-                "src='https://www.youtube.com/embed/O5hShUO6wxs?autoplay=1'>   "+
+                "src='https://www.youtube.com/embed/KozKsI11Tvc?si=GhCqCdqhVingyX2B?autoplay=1'>   "+
                 "</iframe>   "
         });
         academicDiv.setStyle({
