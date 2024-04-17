@@ -50,3 +50,7 @@ input:focus{
     border-bottom: 2px solid rgb(53, 67, 255);
     
 }
+.inline_img{
+    width:100%;
+    border-radius:10px;
+}

@@ -111,6 +111,14 @@ class MainView extends Activity {
         projectsBtn = new View("button").set({
             innerHTML: "My projects"
         });
+        projectsBtn.set({
+            onclick:()=>{
+                Magma.importActivity("projects",()=>{
+                    new Projects();
+                })
+            }
+
+        })
         const buttonStyle = {
             float: 'right',
             backgroundColor: 'transparent',
