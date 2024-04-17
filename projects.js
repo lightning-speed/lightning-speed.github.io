@@ -70,7 +70,8 @@ class Projects extends Activity {
             "https://replit.com/@opengi/stories")
         this.addProject("A Special AI model","An AI model but it doesn't use any kind of neural netowrk unlike other AI models",
             "https://aicontentfy.com/hubfs/Blog/6d562139-6db0-4c67-aa4f-f965bfaaf3ae.jpg",        "https://github.com/lightning-speed/GridModel")
-    }
+        this.add(BREAK()).add(BREAK())
+        }
     addProject(title,description,images,code_link){
         this.add(BREAK()).add(new View('div').set({
             innerHTML:`<h2>${title}</h2><br>`
